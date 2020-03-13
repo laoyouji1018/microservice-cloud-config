@@ -32,7 +32,7 @@ eureka:
     instanceId: ${spring.application.name}:${server.port} # 指定实例ID,就不会显示主 机名了
     prefer-ip-address: true #访问路径就会显示成IP地址
 
------
+---
 server:
   port: 8001
 mybatis:
