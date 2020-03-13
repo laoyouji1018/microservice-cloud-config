@@ -1,3 +1,8 @@
+#注意：如果在记事本上编写，下面的缩进不要使用Tab来缩进，不然报错 
+spring: 
+  profiles: 
+    active: dev # 激活开发环境配置
+---
 server:
   port: 8001
 mybatis:
@@ -27,7 +32,7 @@ eureka:
     instanceId: ${spring.application.name}:${server.port} # 指定实例ID,就不会显示主 机名了
     prefer-ip-address: true #访问路径就会显示成IP地址
 
-#-----
+-----
 server:
   port: 8001
 mybatis:
